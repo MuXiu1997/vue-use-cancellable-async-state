@@ -1,7 +1,7 @@
 {
   "name": "@muxiu1997/vue-use-cancellable-async-state",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.0-rc.1",
   "description": "Cancellable version of VueUse `useAsyncState`.",
   "source": "src/index.ts",
   "author": "MuXiu1997 <muxiu1997@gmail.com> (https://github.com/MuXiu1997/)",

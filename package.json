@@ -1,0 +1,68 @@
+{
+  "name": "@muxiu1997/vue-use-cancellable-async-state",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Cancellable version of VueUse `useAsyncState`.",
+  "source": "src/index.ts",
+  "author": "MuXiu1997 <muxiu1997@gmail.com> (https://github.com/MuXiu1997/)",
+  "license": "MIT",
+  "homepage": "https://github.com/MuXiu1997/vue-use-cancellable-async-state",
+  "repository": "MuXiu1997/vue-use-cancellable-async-state",
+  "keywords": [
+    "vue",
+    "vue-demi",
+    "mitt",
+    "events",
+    "eventemitter",
+    "emitter"
+  ],
+  "exports": {
+    "types": "./index.d.ts",
+    "module": "./dist/vue-use-cancellable-async-state.es.js",
+    "import": "./dist/vue-use-cancellable-async-state.es.js",
+    "require": "./dist/vue-use-cancellable-async-state.cjs.js",
+    "default": "./dist/vue-use-cancellable-async-state.es.js"
+  },
+  "main": "dist/vue-use-cancellable-async-state.cjs.js",
+  "module": "dist/vue-use-cancellable-async-state.es.js",
+  "jsnext:main": "dist/vue-use-cancellable-async-state.es.js",
+  "umd:main": "dist/vue-use-cancellable-async-state.umd.js",
+  "typings": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "vitest --typecheck",
+    "coverage": "vitest --typecheck --coverage",
+    "bundle": "vite build"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "vue-demi": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.1.0",
+    "@types/node": ">=20.0.0",
+    "@vitest/coverage-v8": "^1.0.0-beta.5",
+    "@vitest/ui": "^1.0.0-beta.5",
+    "@vue/test-utils": "^2.4.2",
+    "eslint": "^8.54.0",
+    "jsdom": "^20.0.0",
+    "prettier": "^2.7.1",
+    "typescript": ">=5.0.0 <5.3.0",
+    "vite": "^5.0.2",
+    "vite-plugin-dts": "^3.6.3",
+    "vitest": "^1.0.0-beta.5",
+    "vue": "^3.0.0"
+  }
+}
